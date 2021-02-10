@@ -46,11 +46,14 @@
     }
     .nav .contenedor {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         width: 80%;
         margin: auto;
     }
-    .nav .contenedor img {
-        width: 12%;
+    .nav .contenedor .img_site_logo {
+        width: 80%;
+    }
+    .site-logo {
+        width: 80px;
     }
 }
