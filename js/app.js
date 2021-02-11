@@ -5,3 +5,10 @@
 // menuBtn.onclick = () => {
 //     menu.classList.add(".menu-toggle")
 // }
+
+const hamburger = document.getElementById('hamburger');
+const navUl = document.getElementById('collapse');
+
+hamburger.addEventListener('click', () => {
+    navUl.classList.toggle('show');
+});
