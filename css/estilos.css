@@ -104,4 +104,26 @@ a {
     .site-logo {
         width: 80px;
     }
+    section {
+        margin-top: 8em;
+        position: absolute;
+        display: flex;
+        width: 80%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        top: 3em;
+        left: 4em;
+    }
+    .titulo {
+        color: #a5c75a;
+        font-weight: lighter;
+        margin-bottom: 2em;
+    }
+    .parrafo {
+        font-size: 1.2em;
+        margin-bottom: 1em;
+        color: #484848;
+    }
 }
