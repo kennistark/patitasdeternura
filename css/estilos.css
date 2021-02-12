@@ -105,16 +105,13 @@ a {
         width: 80px;
     }
     section {
-        margin-top: 8em;
-        position: absolute;
+        margin: 9em auto;
         display: flex;
         width: 80%;
         text-align: center;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        top: 3em;
-        left: 2em;
     }
     .titulo {
         color: #a5c75a;
